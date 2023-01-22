@@ -1,0 +1,1 @@
+.currentWeather{padding:20px;width:1080px;display:flex;flex-direction:column;justify-content:center;align-items:center}.currentWeather_header{display:flex;flex-direction:row;align-items:center;gap:1em;font-size:2em}.currentWeather_main{padding:40px}.currentWeather_main-value{font-size:5em}.currentWeather_main-description{margin-top:60px}.currentWeather img{object-fit:cover}

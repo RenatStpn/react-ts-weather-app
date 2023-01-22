@@ -1,0 +1,31 @@
+.currentWeather {
+  padding: 20px;
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    font-size: 2em;
+  }
+  &__main {
+    padding: 40px;
+    &--value {
+      font-size: 5em;
+    }
+    &--description {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  img {
+    object-fit: cover;
+  }
+}
